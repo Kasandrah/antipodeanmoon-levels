@@ -1,0 +1,32 @@
+{
+	"name": "am-1886-imperial-hotel-levels",
+	"title": "AM 1886 Imperial Hotel (Levels)",
+	"description": "This module contains versions of our scenes that depend on other Foundry modules. These scenes have better roofing, internal levels, elevators, stairs, and variable wall heights.",
+	"author": "Andra Cass",
+	"version": "1.0.0",
+	"authors": [],
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"url": "https://www.patreon.com/antipodeanmoon",
+	"manifest": "https://raw.githubusercontent.com/Kasandrah/antipodeanmoon-levels/main/module.json",
+	"download": "https://raw.githubusercontent.com/Kasandrah/antipodeanmoon-levels/main/am-1886-imperial-hotel-levels.zip",
+	"packs": [{
+		"name": "am-1886-imperial-hotel-scenes-levels",
+		"label": "Imperial Hotel 1886 Scenes (Levels)",
+		"path": "./packs/am-1886-imperial-hotel-scenes-levels.db",
+		"entity": "Scene"
+	}],
+	"dependencies": [{
+			"name": "betterroofs"
+		},
+		{
+			"name": "levels"
+		},
+		{
+			"name": "lib-wrapper"
+		},
+		{
+			"name": "wall-height"
+		}
+	]
+}
