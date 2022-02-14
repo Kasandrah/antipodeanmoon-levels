@@ -1,2 +1,2 @@
 # antipodeanmoon-levels
-Antipodean Moon Foundry maps that require the Levels module.
+This repository contains our Foundry VTT documents that use Levels and its dependent modules.
