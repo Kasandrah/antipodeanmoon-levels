@@ -3,7 +3,7 @@
 	"title": "AM 1886 Imperial Hotel (Levels)",
 	"description": "This module contains versions of our scenes that depend on other Foundry modules. These scenes have better roofing, internal levels, elevators, stairs, and variable wall heights.",
 	"author": "Andra Cass",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"authors": [],
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
@@ -17,16 +17,16 @@
 		"entity": "Scene"
 	}],
 	"dependencies": [{
-			"name": "betterroofs"
-		},
-		{
-			"name": "levels"
-		},
-		{
 			"name": "lib-wrapper"
 		},
 		{
 			"name": "wall-height"
+		},
+		{
+			"name": "betterroofs"
+		},
+		{
+			"name": "levels"
 		}
 	]
 }
